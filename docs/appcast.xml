@@ -3,6 +3,20 @@
                   xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>MisiR3D</title>
+
+        <item>
+            <title>Version 1.3.0</title>
+            <pubDate>Sun, 07 Jun 2026 14:00:19 +0000</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[Test pipeline de release automatique]]></description>
+            <enclosure url="https://github.com/misilab/MisiR3D/releases/download/v1.3.0/MisiR3D-1.3.0.dmg"
+                       sparkle:edSignature="2StTUzGtY8/cUPVbbYdGCH94JfDTLtI4DyDKq1cfEarEQcQaNR8tjwMqn/ALCeIuOoWihTPgYdLdZKbZUcJKDA=="
+                       length="4162730"
+                       type="application/octet-stream"/>
+        </item>
+
         <link>https://misilab.github.io/MisiR3D/appcast.xml</link>
         <description>Mises à jour MisiR3D — Conversion par lot N-RAW → R3D NE pour macOS.</description>
         <language>fr</language>
