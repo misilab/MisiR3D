@@ -5,6 +5,20 @@
         <title>MisiR3D</title>
 
         <item>
+            <title>Version 1.5.1</title>
+            <pubDate>Sun, 07 Jun 2026 15:56:49 +0000</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[Test final de l'auto-update Sparkle]]></description>
+            <enclosure url="https://github.com/misilab/MisiR3D/releases/download/v1.5.1/MisiR3D-1.5.1.dmg"
+                       sparkle:edSignature="dtjIIC169QlSkKFwRw50cSGrRBUiqOUUW1e9WiMjS9jTb7Ot6e5rAfBvzBC60QKRSdX1O9mufvgfW1+UycL9Cg=="
+                       length="4162628"
+                       type="application/octet-stream"/>
+        </item>
+
+
+        <item>
             <title>Version 1.5.0</title>
             <pubDate>Sun, 07 Jun 2026 15:34:50 +0000</pubDate>
             <sparkle:version>5</sparkle:version>
