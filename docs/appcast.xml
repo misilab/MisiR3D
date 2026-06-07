@@ -5,6 +5,20 @@
         <title>MisiR3D</title>
 
         <item>
+            <title>Version 1.4.0</title>
+            <pubDate>Sun, 07 Jun 2026 15:19:12 +0000</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[Fix sandboxing — installer Sparkle fonctionnel]]></description>
+            <enclosure url="https://github.com/misilab/MisiR3D/releases/download/v1.4.0/MisiR3D-1.4.0.dmg"
+                       sparkle:edSignature="6Q30yuU3Q95w4ii2FCYmq/nySJ4Sh9L9NMNfL6J0XpF7+5QLLN22+gjdHqjKQqLngTIqLUj+vFYw6Pv67m9fAw=="
+                       length="4162956"
+                       type="application/octet-stream"/>
+        </item>
+
+
+        <item>
             <title>Version 1.3.0</title>
             <pubDate>Sun, 07 Jun 2026 14:00:19 +0000</pubDate>
             <sparkle:version>3</sparkle:version>
