@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    appcast.xml — Template Sparkle pour MisiR3D
+
+    Ce fichier doit être hébergé sur GitHub Pages à l'URL suivante,
+    déclarée dans Info.plist via INFOPLIST_KEY_SUFeedURL :
+
+        https://misilab.github.io/MisiR3D/appcast.xml
+
+    À chaque release, ./scripts/publish-release.sh ajoute automatiquement
+    une nouvelle <item> en tête (les plus récentes en premier).
+
+    Sparkle compare la valeur sparkle:version embarquée dans Info.plist
+    de l'app installée avec celle du dernier <item>. Si l'app a une
+    version inférieure, Sparkle propose la mise à jour.
+-->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+                  xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>MisiR3D</title>
+        <link>https://misilab.github.io/MisiR3D/appcast.xml</link>
+        <description>Mises à jour MisiR3D — Conversion par lot N-RAW → R3D NE pour macOS.</description>
+        <language>fr</language>
+
+        <!--
+            Entrée d'exemple. Le script publish-release.sh remplace
+            les ... par les vraies valeurs (signature Ed25519, taille,
+            URL du DMG hébergé sur GitHub Releases).
+        -->
+        <item>
+            <title>Version 1.1.0</title>
+            <pubDate>Mon, 03 Jun 2026 12:00:00 +0000</pubDate>
+            <sparkle:version>1.1.0</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Fenêtre Préférences macOS (⌘,) avec 4 onglets : Général, Comportement, Licence, À propos</li>
+                    <li>Nouveau menu Aide : Manuel, Support, Acheter une licence</li>
+                    <li>Palette acidulée mangue → framboise</li>
+                    <li>Fenêtre principale élargie à 600×900 (non redimensionnable)</li>
+                </ul>
+            ]]></description>
+            <enclosure url="https://github.com/misilab/MisiR3D/releases/download/v1.1.0/MisiR3D-1.1.0.dmg"
+                       sparkle:edSignature="REMPLIR_VIA_sign_update"
+                       length="3000000"
+                       type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
